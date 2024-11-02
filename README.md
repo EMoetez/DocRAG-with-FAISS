@@ -50,7 +50,7 @@ This image below demonstrates a typical interaction, showcasing a user query and
 ![Screenshot_20241102_094631](https://github.com/user-attachments/assets/e4e5558d-c495-43ca-841a-df8044f297dc)
 
 ## Future work
-In the next steps, we will use ChromaDB for more effecient storage. ChromaDB Stores document embeddings for future retrieval.
+In the next steps, we will use ChromaDB for more effecient storage. ChromaDB Stores document embeddings for future retrieval. Also, we will implement LLM-as-a-Judge concept to evaluate the LLMs results.
 
 ## License
 This project is licensed under the MIT License.
