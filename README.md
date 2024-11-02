@@ -29,30 +29,17 @@ Install all required dependencies:
 ```bash
 pip install -r requirements.txt
 ```
-Project Structure
-
-project_name/
-│
-├── notebooks/                # Directory for Jupyter notebooks (.ipynb)
-│   └── DocRAGChromaDB.ipynb  # Main notebook
-│
-├── src/                      # Directory for source code (.py files)
-│   └── main_script.py        # Script for RAG pipeline
-│
-├── requirements.txt          # List of dependencies
-├── README.md                 # Project documentation
-└── .gitignore                # Files/directories to ignore in Git
 ## Usage
 The project is organized for easy setup and usage. Follow these steps to use the RAG Query Application.
 
 ### 1. Set Up Your Vector Store and Database
-ChromaDB and FAISS are used to store and search vectorized document chunks.
+FAISS is used to store and search vectorized document chunks.
 
 ### 2. Load Documents and Split Text
 Load documents, such as research papers, and split them into chunks for optimized retrieval and response generation.
 
-### 3. Embed and Store Chunks in ChromaDB and FAISS
-Embed the document chunks for vector representation and store these embeddings in ChromaDB and FAISS.
+### 3. Embed and Store Chunks in FAISS
+Embed the document chunks for vector representation and store these embeddings in FAISS.
 
 ### 4. Query the Model
 With the vectors stored, you can now query the RAG pipeline. FAISS retrieves relevant documents, and Ollama’s Llama 2 generates context-specific responses.
