@@ -21,7 +21,7 @@ This project implements a **Retrieval-Augmented Generation (RAG) Query Applicati
 
 ### Step 1: Clone the Repository
 ```bash
-git clone https://github.com/EMoetez/DocRAG-with-ChromaDB.git
+git clone https://github.com/EMoetez/DocRAG-with-FAISS.git
 cd DocRAG-with-ChromaDB
 ```
 ### Step 2: Install Dependencies
